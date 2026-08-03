@@ -1,0 +1,66 @@
+{
+  "collections": [
+    {
+      "collectionId": "admin",
+      "documents": [
+        {
+          "documentId": "config",
+          "fields": {
+            "password": "admin",
+            "maintenance": {
+              "active": false,
+              "badge": "SEDANG PERBAIKAN • FITUR",
+              "title": "Sistem Dalam Perbaikan",
+              "notice": "Aplikasi SaveTik sedang dalam perbaikan berkala untuk peningkatan server. Silakan coba beberapa saat lagi",
+              "endTime": 0
+            },
+            "apkUpdate": {
+              "active": false,
+              "version": "2.0.0",
+              "title": "SaveTik Update!!",
+              "notice": "Pembaruan Tersedia Segera Update Versi Neww",
+              "changelog": ["SaveTik-Beta All Download Media"],
+              "downloadUrl": "https://www.nabil-official.web.id/public/SavetTik-Beta-v2.0.0.apk",
+              "forceUpdate": false
+            }
+          }
+        },
+        {
+          "documentId": "about",
+          "fields": {
+            "explanation": "SaveTik adalah platform pengunduh media gratis yang memungkinkan Anda mengunduh video dan audio dari TikTok, CapCut, Instagram, Spotify, YouTube, dan Facebook secara instan dengan kecepatan tinggi tanpa batasan.",
+            "developer": "Nabil Assihidiqi :)",
+            "telegram": "nabil_assihidiqi",
+            "whatsappChannel": "https://whatsapp.com/channel/0029VajM6666"
+          }
+        },
+        {
+          "documentId": "faqs",
+          "fields": {
+            "faqs": [
+              {
+                "question": "Berapa lama lisensi Alight Motion Pro ini aktif?",
+                "answer": "Lisensi yang diklaim melalui AlightPro berlaku secara penuh selama 1 Tahun (365 Hari) terhitung sejak tanggal verifikasi berhasil dilakukan."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "collectionId": "analytics",
+      "documents": [
+        {
+          "documentId": "global_stats",
+          "fields": {
+            "totalHits": 0,
+            "platforms": {},
+            "os": {},
+            "browsers": {},
+            "regions": {}
+          }
+        }
+      ]
+    }
+  ]
+}
